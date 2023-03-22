@@ -47,7 +47,7 @@ rec_output_format = %mp3(bitrate=320)
 rec_output_path = "/home/spcast/SPCast/userdisk/recordings/%Y/%m/%d/%H_%M.mp3"
 
 # Use the on_period operator to trigger a new file output every hour
-output.file(output_format,
+output.file(rec_output_format,
   rec_output_path,
   reopen_when={0m0s},
   rec_source
