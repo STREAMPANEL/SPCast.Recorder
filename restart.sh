@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -f /usr/share/zabbix/sp/secure/.restart_recorder
 pkill -f ctclyzbxbbavhn
 sleep 3
 chmod +x /home/spcast/SPCast/recorder/spcast_recorder.liq
