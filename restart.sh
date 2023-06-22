@@ -16,4 +16,4 @@ chmod +x /home/spcast/SPCast/recorder/spcast_recorder.liq
 cd /home/spcast/SPCast/recorder
 
 # Execute the spcast_recorder.liq with the name ctclyzbxbbavhn
-bash -c './spcast_recorder.liq --name "ctclyzbxbbavhn"'
+#bash -c './spcast_recorder.liq --name "ctclyzbxbbavhn"'
